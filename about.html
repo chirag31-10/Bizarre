@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale= 1.0">
+    <title>Contact- Bizarre</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link  rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+    
+
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li> 
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a> 
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>   
+
+
+<!--- Contact us--->
+<section class="location">
+
+<h3>Introduction</h3> 
+   
+<p>Bizarre is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products, Bizarre aims at providing a hassle free and enjoyable shopping experience to shoppers across the country with the widest range of brands and products on its portal. The brand is making a conscious effort to bring the power of fashion to shoppers with an array of the latest and trendiest products available in the country.</p>
+<br>
+<h3>Value proposition</h3>
+<p> Bizarre's value proposition revolves around giving consumers the power and ease of purchasing fashion and lifestyle products online. Offerings such as the largest in-season product catalogue, 100% authentic products, cash on delivery and 30 day return policy make Bizarre, the preferred shopping destination in the country. To make online shopping easier for you, a dedicated customer connect team is on standby to answer your queries 24x7.</p>
+<br>
+<h3> Brands</h3>
+<p> Bizarre understands its shoppers' needs and caters to them with choice of apparel, accessories, cosmetics and footwear from over 500 leading Indian and international brands. Prominent brands include Adidas, Nike, Puma, Catwalk, Inc 5, United Colors of Benetton, FCUK, Timberland, Avirate, FabIndia and Biba to name a few. You can also shop from some recently introduced labels such as - Roadster, Sher Singh, Dressberry, Kook N Keech and ETC.</p>
+<br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.1500712660377!2d77.13062051446187!3d28.715060782385265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d016449a46433%3A0x77b21d435c150e7c!2sBizarre!5e0!3m2!1sen!2sin!4v1654780102919!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br>
+
+
+</section>
+
+
+
+
+
+
+
+<!------footer------->
+
+   <div class="footer">
+       <div class="container">
+           <div class="row">
+                <div class="footer-col-1">
+                   <h3>Download Our App</h3>
+                   <p>Download App for Android and ios mobile phones.</p>
+                   <div class="app-logo">
+                       <img src="images2/play-store.png">
+                       <img src="images2/app-store.png">
+                   </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo_transparent.png">
+              
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Posts</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>You Tube</li>
+                    </ul>
+                </div>
+           </div>
+           <hr>
+           <p class="copyright">Copyright 2022 - Bizarre</p>
+       </div>
+   </div>
+
+
+ <script>
+     
+var MenuItems = document.getElementById("MenuItems");
+
+MenuItems.style.maxHeight ="0px";
+
+function menutoggle()
+{
+    if(MenuItems.style.maxHeight =="0px")
+    {
+        MenuItems.style.maxHeight ="200px";
+    }
+    else
+        MenuItems.style.maxHeight ="0px";
+}
+
+var LoginForm = document.getElementById("LoginForm");
+var RegForm =   document.getElementById("RegForm");
+var Indicator = document.getElementById("Indicator");
+
+function register(){
+    RegForm.style.transform =   "translateX(0px)";
+    LoginForm.style.transform = "translateX(0px)";
+    Indicator.style.transform = "translateX(100px)";
+}
+
+function login(){
+    RegForm.style.transform=   "translateX(300px)";
+    LoginForm.style.transform= "translateX(300px)";
+    Indicator.style.transform = "translateX(0px)";
+}
+ </script>
+</body>
+</html>
